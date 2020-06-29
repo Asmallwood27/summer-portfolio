@@ -1,41 +1,102 @@
 <!DOCTYPE html>
+​
 <html>
-    
+​
 <head>
     <meta charset="utf-8">
+<!--     viewport meta tag-->
+    <meta name="viewport" content="width-devices-width, intial-scale=1">
+<!--    Title-->
+    <title>Ashely | Front End Web Developer</title>
+<!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+<!--    make all browsers the same with Normalize-->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+<!--    -->
+    <link href="css/styles.css" rel="stylesheet">
+<!--    -->
+    <link href="css/responsive.css" rel="stylesheet">
+<!--    -->
 </head>
-    
-    
+​
 <body>
-
-<!-- START OF HEADER -->
+    <!-- START OF THE HEADER-->
     <header>
-<!--START LOGO-->
-<!-- clicking either of these should take you back to the index-->
-        <a href="index.html">
-<!--H1 element for our name -->
-    <h1>Ashely</h1>
-<!--H2 element  for our title-->
-    <h2> Front End Web Developer </h2>
+        <!-- START LOGO-->
+        <!-- Clicking either of these should take you back to the index page-->
+        <a href="index.html" id="logo">
+            <!-- H1 element for our name-->
+            <h1>Ashely</h1>
+            <!-- H2 element for our title-->
+            <h2>Front End Web Developer</h2>
         </a>
-<!--END LOGO-->
-<!--START OF NAVBAR-->
+        <!-- END LOGO-->
+​
+        <!-- START OF NAVBAR-->
         <nav>
-<!--Navbar with three links: Portfolio, About,Contact -->
-        <ul>
-            <li> <a href="index.html"></a>Portfolio</li>
-            <li><a href="index.html"></a>About</li>
-            <li><a href="index.html"></a>Contact</li>
+            <!-- Navbar with three links: Portfolio, About, Contact -->
+            <ul>
+                <li><a href="index.html" class="selected"> Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-<!--END NAVBAR-->
-</nav>
-</header>
-<!--END OF HEADER-->
+        </nav>
+        <!-- END OF NAVBAR-->
+    </header>
+    <!-- END OF THE HEADER -->
+​
+​
+    <!-- START PORTFOLIO CONTENT-->
+    <div>
+        <ul>
+        <li>
+   <img src="img/numbers-1.jpg" alt="Number 12">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <li>
+   <img src="img/numbers-2.jpg" alt="Number 12">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <li>
+   <img src="img/numbers-6.jpg" alt="Number 12">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <li>
+   <img src="img/numbers-9.jpg" alt="Number 12">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <li>
+   <img src="img/numbers-12.jpg" alt="Number 12">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</li>
     
+    </ul>
+    </div>
+​
+    <!-- For each of the portfolio items we have an image, text underneath it with a light gray background-->
+​
+    <!-- END PORTFOLIO CONTENT-->
+​
+​
+    <!-- START FOOTER-->
+ <div>
+    <img src="img/ashely.jpg" alt="photo of Ashely">
+        <h3>About</h3>
+    <p>Hello, I am Ashely Smallwood! This is my portfolio where I share all my favorite work</p>
+        <p>If you would like to follow me on Twitter, my username is <a href="http://twitter.com" target= "_blank"@username</a></p>
     
-    </body>
-
-
-
-
+    </div>
+​
+​
+​
+​
+    <!-- START FOOTER-->
+    <footer>
+        <!-- There is a facebook link that opens a new tab-->
+        <a href="http://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
+        <!-- There is a twitter link that opens a new tab-->
+        <a href="http://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
+        <!-- Copyright information-->
+        <p>&copy; 2020 Marc</p>
+    </footer>
+    <!-- END FOOTER-->
+​
+</body>
+​
 </html>
